@@ -29,8 +29,8 @@ https://docs.docker.com/engine/install/ubuntu/
 
 Install Docker Compose https://docs.docker.com/compose/install/
 
-After installation run deploy and run the container with the following command
-`docker compose up` and the container will expose the port 5005.
+After docker installation run the container with the following command `docker compose up`. 
+The container will expose the port 5005.
 
 ### Test API
 After run the container make sure that the backend is running: (1) Open the browser and (2) Type localhost:5005. 
@@ -59,3 +59,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.
 ```
+
+## Final notes
+* The final dataset will be released in the next months because this repository is over its data quota. And we can not upload more data.
