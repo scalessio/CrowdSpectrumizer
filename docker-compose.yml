@@ -1,0 +1,10 @@
+version: "3.8"
+services:       #The services tag is used to define the services we want to use for our application.
+  app:          #For our application, we only have one service called app.
+    build: .    #The build command will build our Docker image using the Dockerfile we created earlier.
+    image: framework/dev:v0
+    command: python ./FlaskApp/TDTCApp.py
+    ports:      # The ports tag is used to define both host and container ports. It maps port 5000 on the host to port 5000 on the container. Because by default, Flask runs on port 5000. Finally, the volumes tag is used to mount a folder from the host machine to the container.
+      - "5005:5005"
+    volumes:
+      - .:/FlaskApp
