@@ -1,6 +1,6 @@
 # A Framework for Spectrum Classification using Crowdsensing Platforms
 The repository contains the code and data of the paper "A Framework for Spectrum Classification using Crowdsensing Platforms" by
-A. Scalingi, D. Giustiniano, R. Calvo-Palomino, N. Apostolakis and G. Bovet.
+A. Scalingi, D. Giustiniano, R. Calvo-Palomino, N. Apostolakis and G. Bovet. Please cite the paper if you plan to use it in your publication.
 
 ## Abstract
 We propose a framework that relies solely on Power Spectrum Density (PSD) data collected by low-cost RTL-SDR receivers.
