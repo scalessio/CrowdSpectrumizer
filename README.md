@@ -60,6 +60,3 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.
 ```
-
-## Final notes
-* The final dataset will be released in the next months because this repository is over its data quota. And we can not upload more data.
