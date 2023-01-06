@@ -36,7 +36,7 @@ The container will expose the port 5005.
 ### Test API
 After run the container make sure that the backend is running: (1) Open the browser and (2) Type localhost:5005. 
 If "App is Running" shows up then the backend is running correctly.  The backend expose the API to run the technology 
-classification pipeline. Without the frontend, you can run the technology classification through curl:
+classification pipeline. Without the frontend, test the technology classification through curl with:
 
 `curl -i -H "Content-Type: application/json; charset=utf-8" -X POST -d '{"snsid" : "202481596708292", "snsname" : "rack_3", "month" : "May", "day" : "1" , "nation" : "Esp", "technology" : "test", "startf" : "20", "endf" : "1500", "freq_start":"20000000", "freq_end":"1500000000" }' http://localhost:5005/services/api/v1.0/usertc/pipeline
 `
