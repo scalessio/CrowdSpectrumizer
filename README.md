@@ -16,7 +16,7 @@ We release the containerized version of the framework running as lightweight Doc
 ## Dataset
 We release the compressed version of the dataset that contains the measurements of 
 real-world data collected from 47 different sensors deployed across Europe.
-To access the dataset: https://kaggle.com/datasets/049e6c4449009037995ccdad1853a73bc9397b71ccf949d954955b58ddff3d79
+To access the dataset: ** Dataset link will be released soon **
 
 ## Requirements 
 In order to run the repository you need the following software:
