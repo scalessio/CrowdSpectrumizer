@@ -1,5 +1,5 @@
 # A Framework for Spectrum Classification using Crowdsensing Platforms
-The repository contains the code and data of the paper "A Framework for Spectrum Classification using Crowdsensing Platforms" by
+The repository contains the code and dataset link of the paper "A Framework for Spectrum Classification using Crowdsensing Platforms" by
 A. Scalingi, D. Giustiniano, R. Calvo-Palomino, N. Apostolakis and G. Bovet. Please cite the paper if you plan to use it in your publication.
 
 ## Abstract
@@ -11,12 +11,19 @@ Second, the data-driven deep learning solution to classify the radio frequency c
 technology used by the transmitter, using transmission features in a compressed space extracted from
 single PSD measurements over at most 2 MHz band for inference.
 
-We release the containerized version of the framework running as lightweight Docker container. 
+We release the lightweight version of the framework as Docker container. 
 
 ## Dataset
+
 We release the compressed version of the dataset that contains the measurements of 
 real-world data collected from 47 different sensors deployed across Europe.
-To access the dataset: ** Dataset link will be released soon **
+
+To access to the dataset: https://zenodo.org/record/7521246
+
+If you encounter any issue with Zenodo please write an email to:
+alessio.scalingi@imdea.org with subject "Access PSD Dataset - [Your Name]"
+
+DOI: 10.5281/zenodo.7521246.
 
 ## Requirements 
 In order to run the repository you need the following software:
@@ -77,7 +84,8 @@ products derived from this software without specific prior written permission.
     volume={},
     number={},
     pages={1-10},
-    doi={10.1109/INFOCOM53939.2023.10228867}}
+    doi={10.1109/INFOCOM53939.2023.10228867}
+    url=}
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, 
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
