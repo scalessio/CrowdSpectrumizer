@@ -45,6 +45,8 @@ classification pipeline. Without the frontend, test the technology classificatio
 
 ## License
 ```
+BSD 3-Clause License
+
 Copyright (c) 2023, Alessio Scalingi, All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that 
